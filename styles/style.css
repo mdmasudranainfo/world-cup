@@ -233,9 +233,12 @@ footer hr{
     }
    .header-wraper{
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .header-text{
         width: 100%;
+        display: block;
+        text-align: center;
     }
     .header-image{
         width: 100%;
@@ -248,5 +251,50 @@ footer hr{
   .text {
     font-size: 10px;
 }
+.header-image img {
+   
+    transform: scale(1);
+    
+}
+.match-menu-wraper{
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+.menu {
+   
+    background-color: white;
+    
+}
+.match-wraper {
+    
+    grid-template-columns: repeat(1, 1fr);
+
+    
+}
+.match-box{
+    width: 320px;
+}
+.menu ul li  a{
+   
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+footer h2 {
+    padding-top: 31px;
+    padding-bottom: 32px;
+}
+.footer-nav ul {
+   
+    flex-direction: column;
+  
+}
+.footer-nav ul li a{
+    padding-top: 15px;
+    display: inline-block;
 
 }
+}
+
+
+
+
